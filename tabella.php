@@ -20,7 +20,7 @@ Issues </a><span style="font-family: Century;">oppure inviare una email a </span
         </tr>
 <?php
 // Inserire i dati del database MySQL qui sotto (host,nomeutente,password);(database)
-$db_connection= mysql_connect("HOST,""USERNAME","PASSWORD");
+$db_connection= mysql_connect("HOST","USERNAME","PASSWORD");
 $db_selection = mysql_select_db("DB_NAME",$db_connection);
 $query = mysql_query("SELECT * FROM Interrogati");
 while($cicle=mysql_fetch_array($query)){
