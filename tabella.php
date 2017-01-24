@@ -5,8 +5,7 @@
 </head>
 <body style="color: rgb(0, 0, 0); background-color: rgb(255, 255, 204);"
 alink="#000099" link="#000099" vlink="#990099">
-<title>Tabella interrogati 2A Pentamestre A.S. 2016/2017</title>
-<h1 style="font-weight: bold; font-family: Century;" align="center">Tabella interrogati 2A Pentamestre A.S. 2016/2017</h1>
+<h3 style="font-weight: bold; font-family: Century;" align="center">Tabella interrogati 2A Pentamestre A.S. 2016/2017</h3>
 <span style="font-family: Century;">Grazie a questa tabella si potrà vedere chi è stato interrogato e così prevedere le future interrogazioni (utile nelle ore della Di Caprio).
 Per segnalazioni di errori e/o richieste scrivere qui: </span><a style="font-family: Century;" href="https://github.com/maicol07/tabellainterrogati/issues">Github
 Issues </a><span style="font-family: Century;">oppure inviare una email a </span><a style="font-family: Century;" href="mailto:maicolbattistini@live.it">maicolbattistini@live.it</a>
