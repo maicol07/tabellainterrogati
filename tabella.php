@@ -1,6 +1,7 @@
+<!DOCTYPE HTML>
 <html>
 <head>
-<meta charset="utf-8" />
+<meta charset="UTF-8">
 <!--Import Google Icon Font-->
 <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 <!--Import materialize.css-->
@@ -25,14 +26,15 @@ Issues </a><span style="font-family: Century;">oppure inviare una email a </span
               <th data-field="name">Nome e cognome</th>
               <th data-field="price">Italiano Giro 1</th>
 			  <th data-field="price">Storia Giro 1</th>
+			  <th data-field="price">Scienze Giro 1</th>
           </tr>
         </thead>
 		<tbody>
 <?php
 // Inserire i dati del database MySQL qui sotto (host,nomeutente,password);(database)
-$db_connection= mysql_connect("localhost","root","");
-$db_selection = mysql_select_db("interrogati",$db_connection);
-$query = mysql_query("SELECT * FROM Interrogati");
+$db_connection= mysql_connect("localhost","maicolcu_user","maicol24");
+$db_selection = mysql_select_db("maicolcu_db",$db_connection);
+$query = mysql_query("SELECT * FROM interrogati");
 while($cicle=mysql_fetch_array($query)){
     echo " 
          <tr>
@@ -40,6 +42,7 @@ while($cicle=mysql_fetch_array($query)){
                 <td>".$cicle['Nome_Cognome']."</td> 
               <td>".$cicle['ITA1']."</td>
                 <td>".$cicle['STO1']."</td> 
+				<td>".$cicle['SCIE1']."</td>
           </tr>";
          }
 ?>
