@@ -15,8 +15,26 @@ alink="#000099" link="#000099" vlink="#990099">
 <!--Import jQuery before materialize.js-->
 <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 <script type="text/javascript" src="js/materialize.min.js"></script>
+<script src="js/navmobile.js"></script>
+  <nav>
+    <div class="nav-wrapper">
+      <a href="https://github.com/maicol07/tabellainterrogati" class="brand-logo"><img src="icon.png">Tabella interrogati</a>
+      <a href="#" data-activates="mobile-demo" class="button-collapse">
+	    <i class="material-icons">menu</i>
+	  </a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="https://github.com/maicol07/tabellainterrogati">Pagina del progetto</a></li>
+        <li><a href="https://github.com/maicol07/tabellainterrogati/issues">Segnala un problema e/o richiedi una funzionalità</a></li>
+      </ul>
+      <ul class="side-nav" id="mobile-demo">
+        <li><a href="https://github.com/maicol07/tabellainterrogati">Pagina del progetto</a></li>
+        <li><a href="https://github.com/maicol07/tabellainterrogati/issues">Segnala un problema e/o richiedi una funzionalità</a></li>
+      </ul>
+    </div>
+  </nav>
 <h3 style="font-weight: bold; font-family: Century;" align="center">Tabella interrogati 2A Pentamestre A.S. 2016/2017</h3>
-<span style="font-family: Century;">Grazie a questa tabella si potrà vedere chi è stato interrogato e così prevedere le future interrogazioni (utile nelle ore della Di Caprio).
+<div style="margin-left:20px; margin-right:20px">
+<span style="font-family: Century;">Grazie a questa tabella si potrà vedere chi è stato interrogato e così prevedere le future interrogazioni.
 Per segnalazioni di errori e/o richieste scrivere qui: </span><a style="font-family: Century;" href="https://github.com/maicol07/tabellainterrogati/issues">Github
 Issues </a><span style="font-family: Century;">oppure inviare una email a </span><a style="font-family: Century;" href="mailto:maicolbattistini@live.it">maicolbattistini@live.it</a>
 <table border="1"; class="responsive-table, striped">
@@ -48,6 +66,19 @@ while($cicle=mysql_fetch_array($query)){
 ?>
 </tbody>
 </table>
-<p><small>Creatore: Battistini Maicol</small></p>
+<p><script language="Javascript" type="text/javascript">
+// Copyright: www.web-link.it 
+<!--  
+function aprifinestra()
+{
+weblink=window.open("popup.php","Feed RSS Changelog Tabella","width=500,height=500,left=125,top=125"); 
+}
+//  -->
+</script>
+<a href="javascript:aprifinestra();">Visualizza la lista delle novità introdotte in questa versione!: CLICCA QUI</a>
+</p>
+<p><small>Creatore: <a href="http://www.github.com/maicol07">Battistini Maicol (mai</a>
+Collaboratori: <a href="http://www.github.com/Pyromir">Aouioua Emir W.</a></small></p>
+</div>
 </body>
 </html>
