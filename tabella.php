@@ -13,9 +13,10 @@
 <body style="color: rgb(0, 0, 0);"
 alink="#000099" link="#000099" vlink="#990099">
 <!--Import jQuery before materialize.js-->
-<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-<script type="text/javascript" src="js/materialize.min.js"></script>
-<script src="js/navmobile.js"></script>
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+ <!--Import Initialization script(this contains mobile menu and jQuery)-->
+  <script src="js/init.js"></script>
   <nav>
     <div class="nav-wrapper">
       <a href="https://github.com/maicol07/tabellainterrogati" class="brand-logo"><img src="icon.png">Tabella interrogati</a>
@@ -66,8 +67,7 @@ while($cicle=mysql_fetch_array($query)){
 ?>
 </tbody>
 </table>
-<p><script language="Javascript" type="text/javascript">
-// Copyright: www.web-link.it 
+<p><script language="Javascript" type="text/javascript"> 
 <!--  
 function aprifinestra()
 {
