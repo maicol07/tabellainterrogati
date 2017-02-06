@@ -1,3 +1,9 @@
-# tabellainterrogati
-![Logo](http://i.imgur.com/AuXnYox.png) Tabella interrogati 2A
-Contenuti di terze parti: Materialize CSS by http://www.materializecss.com
+<img src="http://i.imgur.com/AuXnYox.png" align="right" />
+# Tabella interrogati
+## Funzionalità:
+- Visualizzare gli studenti già interrogati
+- Stile in material design
+- Prossimamente altre funzioni...
+
+### Contenuti di terze parti: 
+- _Materialize CSS_ by http://www.materializecss.com
