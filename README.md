@@ -1,4 +1,4 @@
-<img src="http://i.imgur.com/AuXnYox.png" align="right" />
+<img src="http://i.imgur.com/AuXnYox.png" align="right" /><img src="http://www.prohad.com/images/beta.png" align="right" />
 # Tabella interrogati
 ## Funzionalità:
 - Visualizzare gli studenti già interrogati
