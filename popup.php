@@ -20,9 +20,9 @@ alink="#000099" link="#000099" vlink="#990099">
 <noscript>
 <a href="http://feedroll.com/rssviewer/feed2js.php?src=https%3A%2F%2Fgithub.com%2Fmaicol07%2Ftabellainterrogati%2Freleases.atom&chan=y&utf=y&pc=y&html=y">Visualizza Changelog</a>
 </noscript>
-<form>
-<input type="button" class="btn waves-effect waves-light" value="Chiudi Finestra" onClick="self.close()">
-</form>
+<div align="center">
+<a href="javascript:self.close()" class="btn waves-effect waves-light">Chiudi finestra</a>
+</div>
 </div>
 </body>
 </html>
