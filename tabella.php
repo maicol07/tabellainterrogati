@@ -34,6 +34,18 @@ alink="#000099" link="#000099" vlink="#990099">
     </div>
   </nav>
 <h3 style="font-weight: bold; font-family: Century;" align="center">Tabella interrogati 2A Pentamestre A.S. 2016/2017</h3>
+<div align="center">
+<script language="Javascript" type="text/javascript">
+// Copyright: www.web-link.it 
+<!--  
+function aprifinestra()
+{
+weblink=window.open("popup.php","Feed RSS Changelog Tabella","width=500,height=500,left=125,top=125"); 
+}
+//  -->
+</script>
+<a href="javascript:aprifinestra();" class="waves-effect waves-light btn" align="center"><i class="material-icons left">new_releases</i>Visualizza registro modifiche e novità</a>
+</div>
 <div style="margin-left:20px; margin-right:20px">
 <span style="font-family: Century;">Grazie a questa tabella si potrà vedere chi è stato interrogato e così prevedere le future interrogazioni.
 Per segnalazioni di errori e/o richieste scrivere qui: </span><a style="font-family: Century;" href="https://github.com/maicol07/tabellainterrogati/issues">Github
@@ -69,16 +81,6 @@ while($cicle=mysql_fetch_array($query)){
 ?>
 </tbody>
 </table>
-<p><script language="Javascript" type="text/javascript"> 
-<!--  
-function aprifinestra()
-{
-weblink=window.open("popup.php","Feed RSS Changelog Tabella","width=500,height=500,left=125,top=125"); 
-}
-//  -->
-</script>
-<a href="javascript:aprifinestra();">Visualizza la lista delle novità introdotte in questa versione!: CLICCA QUI</a>
-</p>
 <p><small>Creatore: <a href="http://www.github.com/maicol07">Battistini Maicol (mai</a>
 Collaboratori: <a href="http://www.github.com/Pyromir">Aouioua Emir W.</a></small></p>
 </div>
