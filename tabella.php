@@ -8,6 +8,8 @@
 <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
 <!--Let browser know website is optimized for mobile-->
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link rel="icon" href="/icon.png" type="image/png" />
 <title>Tabella interrogati 2A Pentamestre A.S. 2016/2017</title>
 </head>
 <body style="color: rgb(0, 0, 0);"
@@ -50,7 +52,7 @@ weblink=window.open("popup.php","Feed RSS Changelog Tabella","width=500,height=5
 <span style="font-family: Century;">Grazie a questa tabella si potrà vedere chi è stato interrogato e così prevedere le future interrogazioni.
 Per segnalazioni di errori e/o richieste scrivere qui: </span><a style="font-family: Century;" href="https://github.com/maicol07/tabellainterrogati/issues">Github
 Issues </a><span style="font-family: Century;">oppure inviare una email a </span><a style="font-family: Century;" href="mailto:maicolbattistini@live.it">maicolbattistini@live.it</a>
-<table border="1"; class="responsive-table, striped">
+<table border="1"; class="responsive-table striped centered">
 		<thead>
 		<tr>
               <th data-field="id">N° REGISTRO</th>
