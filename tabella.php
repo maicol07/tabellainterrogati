@@ -34,6 +34,7 @@ alink="#000099" link="#000099" vlink="#990099">
     </div>
   </nav>
 <h3 style="font-weight: bold; font-family: Century;" align="center">Tabella interrogati 2A Pentamestre A.S. 2016/2017</h3>
+<div style="margin-left:20px; margin-right:20px">
 <div align="center">
 <script language="Javascript" type="text/javascript">
 // Copyright: www.web-link.it 
@@ -46,7 +47,6 @@ weblink=window.open("popup.php","Feed RSS Changelog Tabella","width=500,height=5
 </script>
 <a href="javascript:aprifinestra();" class="waves-effect waves-light btn" align="center"><i class="material-icons left">new_releases</i>Visualizza registro modifiche e novità</a>
 </div>
-<div style="margin-left:20px; margin-right:20px">
 <span style="font-family: Century;">Grazie a questa tabella si potrà vedere chi è stato interrogato e così prevedere le future interrogazioni.
 Per segnalazioni di errori e/o richieste scrivere qui: </span><a style="font-family: Century;" href="https://github.com/maicol07/tabellainterrogati/issues">Github
 Issues </a><span style="font-family: Century;">oppure inviare una email a </span><a style="font-family: Century;" href="mailto:maicolbattistini@live.it">maicolbattistini@live.it</a>
@@ -63,11 +63,10 @@ Issues </a><span style="font-family: Century;">oppure inviare una email a </span
         </thead>
 		<tbody>
 <?php
-// Inserire i dati del database MySQL qui sotto (host,nomeutente,password);(database)
-$db_connection= mysql_connect("HOST","USERNAME","PASSWORD");
-$db_selection = mysql_select_db("DB_NAME",$db_connection);
-$query = mysql_query("SELECT * FROM Interrogati");
-while($cicle=mysql_fetch_array($query)){
+// Inserire i dati del database MySQL qui sotto (host,nomeutente,password,database);(tabella)
+$db_connection= mysqli_connect("localhost","username","password", "database");
+$query = mysqli_query($db_connection, "SELECT * FROM interrogati");
+while($cicle=mysqli_fetch_array($query)){
     echo " 
          <tr>
                 <td>".$cicle['ID']."</td>
