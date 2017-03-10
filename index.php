@@ -85,5 +85,6 @@ while($cicle=mysqli_fetch_array($query)){
 <p><small>Creatore: <a href="http://www.github.com/maicol07">Battistini Maicol (mai</a>
 Collaboratori: <a href="http://www.github.com/Pyromir">Aouioua Emir W.</a></small></p>
 </div>
+<script type="text/javascript" src="https://nibirumail.com/docs/scripts/nibirumail.cookie.min.js"></script>
 </body>
 </html>
