@@ -7,3 +7,4 @@
 
 ### Contenuti di terze parti: 
 - _Materialize CSS_ by http://www.materializecss.com
+- _Banner Cookie_ by http://www.nibirumail.com/cookies/
