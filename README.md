@@ -1,4 +1,5 @@
 <img src="http://i.imgur.com/AuXnYox.png" align="right" />
+
 # Tabella interrogati
 ## Funzionalità:
 - Visualizzare gli studenti già interrogati
