@@ -3,6 +3,7 @@
 # Tabella interrogati
 
 **_DEPRECATED: For a better and supported solution check (Scheduled Exams)[https://scheduledexams.tk]_**
+
 **_OBSOLETO: Per una soluzione migliore e maggiormente supportata prova (Interrogazioni Programmate)[https://interrogazioniprogrammate.tk]_**
 
 ## Funzionalità:
